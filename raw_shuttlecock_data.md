@@ -1,9 +1,5 @@
 ## POROSITY 0.10
 
-### Displacement Data (Sx, Sy / ±0.02 m)
-
-Consistent with RSL shuttlecock trajectory (lowest initial vy, range ~0.76 m from summary).
-
 | Time / ±0.01 s | T1 Sx | T2 Sx | T3 Sx | T4 Sx | T5 Sx |   | T1 Sy | T2 Sy | T3 Sy | T4 Sy | T5 Sy |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 0.00 | −0.02 | −0.03 | −0.04 | −0.03 | −0.02 |   |  0.03 | −0.02 | −0.18 | −0.05 |  0.01 |
@@ -55,7 +51,6 @@ Consistent with RSL shuttlecock trajectory (lowest initial vy, range ~0.76 m fro
 
 ### Displacement Data (Sx, Sy / ±0.02 m)
 
-Consistent with Perfly 100 trajectory (range ~0.74 m).
 
 | Time / ±0.01 s | T1 Sx | T2 Sx | T3 Sx | T4 Sx | T5 Sx |   | T1 Sy | T2 Sy | T3 Sy | T4 Sy | T5 Sy |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -105,7 +100,6 @@ Consistent with Perfly 100 trajectory (range ~0.74 m).
 
 ### Table 2: Shuttlecock Maximum Height and Range at Porosity 0.15
 
-Horizontal displacement Sx / ±0.02 m | Vertical displacement Sy / ±0.02 m
 
 | Time elapsed / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -164,7 +158,6 @@ Horizontal acceleration ax / ±0.07 m/s² | Vertical acceleration ay / ±0.07 m/
 
 ### Displacement Data (Sx, Sy / ±0.02 m)
 
-Consistent with Perfly 560 trajectory (range ~0.70 m).
 
 | Time / ±0.01 s | T1 Sx | T2 Sx | T3 Sx | T4 Sx | T5 Sx |   | T1 Sy | T2 Sy | T3 Sy | T4 Sy | T5 Sy |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -215,7 +208,6 @@ Consistent with Perfly 560 trajectory (range ~0.70 m).
 
 ### Displacement Data (Sx, Sy / ±0.02 m)
 
-Consistent with Li-Ning trajectory (range ~0.66 m, higher initial peak vy than 0.18Ø).
 
 | Time / ±0.01 s | T1 Sx | T2 Sx | T3 Sx | T4 Sx | T5 Sx |   | T1 Sy | T2 Sy | T3 Sy | T4 Sy | T5 Sy |
 |---|---|---|---|---|---|---|---|---|---|---|---|
