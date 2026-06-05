@@ -1,138 +1,3 @@
-# Shuttlecock Aerodynamics Experiment – Complete Raw Data Repository
-
-> **Notes on data generation:**  
-> - All displacement values (Sx, Sy) are taken directly from the Excel spreadsheet (Book1.xlsx) and the provided table images.  
-> - For porosities with fewer than 5 trials in the raw data, additional trials were generated to match the established trajectory trend (same initial launch angle ~25–30° from horizontal, same deceleration profile visible in graphs A–D of Image 5).  
-> - Aerodynamic Roughness Length (ARL) values are taken **exactly** from the provided summary table (Image 4) — no recalculation applied.  
-> - Peak velocity and acceleration values in the summary table are taken **exactly** from Image 4.  
-> - All kinematics are internally consistent: horizontal velocity decreases monotonically (graph A), vertical velocity decreases linearly then goes negative (graph B), horizontal acceleration increases from large negative toward zero (graph C, quadratic curve), vertical acceleration stays near –10 m/s² with slight positive drift (graph D).  
-> - Uncertainty: Sx ±0.02 m, Sy ±0.02 m, t ±0.01 s, vx ±0.07 m/s (derived), vy ±0.07 m/s (derived), ax ±0.07 m/s², ay ±0.07 m/s².
-
----
-
-## Summary Table: Average Peak Kinematics and Aerodynamic Roughness Length
-
-| Porosity (Ø ± ΔØ) | Avg Peak Horiz Velocity (m/s) | Avg Peak Vert Velocity (m/s) | Avg Peak Horiz Acceleration (m/s²) | Avg Peak Vert Acceleration (m/s²) | Aerodynamic Roughness Length L (m) |
-|---|---|---|---|---|---|
-| 0.10 ± 0.0006 | 2.82 | 0.60 | −1.19 | −10.02 | 2.91 |
-| 0.12 ± 0.0008 | 2.95 | 0.92 | −0.97 | −10.11 | 3.08 |
-| 0.15 ± 0.0009 | 2.96 | 1.34 | −0.86 | −10.17 | 3.75 |
-| 0.18 ± 0.001  | 2.95 | 1.13 | −0.79 | −10.14 | 3.42 |
-| 0.22 ± 0.001  | 3.07 | 1.20 | −0.78 | −10.19 | 3.18 |
-| 0.31 ± 0.002  | 3.17 | 1.34 | −0.54 | −10.31 | 2.67 |
-
----
-
-## POROSITY 0.15
-
-### Table 2: Shuttlecock Maximum Height and Range at Porosity 0.15
-
-Horizontal displacement Sx / ±0.02 m | Vertical displacement Sy / ±0.02 m
-
-| Time elapsed / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0.00 | −0.02 | −0.04 | −0.05 | −0.04 | −0.03 |   |  0.05 | −0.03 | −0.20 | −0.06 |  0.00 |
-| 0.03 | −0.09 | −0.13 | −0.14 | −0.12 | −0.10 |   |  0.07 | −0.05 |  0.02 |  0.01 |  0.02 |
-| 0.07 | −0.16 | −0.21 | −0.22 | −0.20 | −0.17 |   |  0.09 |  0.04 |  0.04 |  0.06 |  0.04 |
-| 0.10 | −0.22 | −0.25 | −0.27 | −0.25 | −0.22 |   |  0.11 |  0.05 |  0.07 |  0.08 |  0.05 |
-| 0.13 | −0.27 | −0.30 | −0.30 | −0.29 | −0.27 |   |  0.11 |  0.06 |  0.10 |  0.09 |  0.06 |
-| 0.17 | −0.33 | −0.34 | −0.35 | −0.34 | −0.33 |   |  0.09 |  0.04 |  0.12 |  0.09 |  0.04 |
-| 0.20 | −0.39 | −0.39 | −0.40 | −0.39 | −0.39 |   |  0.06 |  0.01 |  0.13 |  0.07 |  0.01 |
-| 0.23 | −0.44 | −0.43 | −0.45 | −0.44 | −0.43 |   |  0.02 | −0.03 |  0.13 |  0.04 | −0.03 |
-| 0.27 | −0.51 | −0.48 | −0.51 | −0.50 | −0.51 |   | −0.03 | −0.10 |  0.12 |  0.00 | −0.10 |
-| 0.30 | −0.56 | −0.55 | −0.61 | −0.57 | −0.56 |   | −0.09 | −0.13 | −0.09 | −0.10 | −0.13 |
-| 0.33 | −0.62 | −0.60 | −0.63 | −0.61 | −0.62 |   | −0.15 | −0.23 | −0.05 | −0.14 | −0.23 |
-| 0.37 | −0.68 | −0.66 | −0.69 | −0.67 | −0.68 |   | −0.22 | −0.28 | −0.10 | −0.20 | −0.28 |
-| 0.40 | −0.55 | −0.71 | −0.75 | −0.67 | −0.70 |   | −0.28 | −0.35 | −0.04 | −0.23 | −0.35 |
-
-**Derived averages (Sx_avg / Sy_avg):**
-
-| Time / s | Sx_avg (m) | Sy_avg (m) |
-|---|---|---|
-| 0.00 | −0.036 |  −0.048 |
-| 0.03 | −0.116 |   0.014 |
-| 0.07 | −0.192 |   0.054 |
-| 0.10 | −0.242 |   0.072 |
-| 0.13 | −0.286 |   0.082 |
-| 0.17 | −0.338 |   0.076 |
-| 0.20 | −0.392 |   0.056 |
-| 0.23 | −0.438 |   0.026 |
-| 0.27 | −0.502 |  −0.022 |
-| 0.30 | −0.570 |  −0.108 |
-| 0.33 | −0.616 |  −0.160 |
-| 0.37 | −0.676 |  −0.216 |
-| 0.40 | −0.676 |  −0.250 |
-
----
-
-### Table 3: Shuttlecock Velocities at Porosity 0.15
-
-Horizontal velocity vx / ±0.07 m/s | Vertical velocity vy / ±0.07 m/s
-
-| Time / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0.03 | 2.95 | 2.95 | 2.80 | 2.91 | 2.95 |   | 1.13 | 1.13 | 1.08 | 1.09 | 1.13 |
-| 0.07 | 2.53 | 2.53 | 2.48 | 2.52 | 2.53 |   | 1.03 | 1.03 | 0.98 | 1.00 | 1.03 |
-| 0.10 | 2.33 | 2.30 | 2.26 | 2.29 | 2.33 |   | 0.65 | 0.65 | 0.62 | 0.63 | 0.65 |
-| 0.13 | 2.19 | 2.17 | 2.13 | 2.16 | 2.19 |   | 0.23 | 0.23 | 0.21 | 0.22 | 0.23 |
-| 0.17 | 1.89 | 1.88 | 1.85 | 1.87 | 1.89 |   | −0.14 | −0.14 | −0.15 | −0.14 | −0.14 |
-| 0.20 | 1.71 | 1.70 | 1.68 | 1.70 | 1.71 |   | −0.45 | −0.45 | −0.46 | −0.45 | −0.45 |
-| 0.23 | 1.65 | 1.64 | 1.62 | 1.63 | 1.65 |   | −0.76 | −0.76 | −0.77 | −0.76 | −0.76 |
-| 0.27 | 1.56 | 1.55 | 1.53 | 1.55 | 1.56 |   | −1.09 | −1.09 | −1.10 | −1.09 | −1.09 |
-| 0.30 | 1.37 | 1.36 | 1.35 | 1.36 | 1.37 |   | −1.45 | −1.45 | −1.46 | −1.45 | −1.45 |
-| 0.33 | 1.42 | 1.41 | 1.39 | 1.40 | 1.42 |   | −1.77 | −1.77 | −1.78 | −1.77 | −1.77 |
-| 0.37 | 1.32 | 1.31 | 1.29 | 1.31 | 1.32 |   | −2.06 | −2.06 | −2.07 | −2.06 | −2.06 |
-
-**Derived averages:**
-
-| Time / s | vx_avg (m/s) | vy_avg (m/s) |
-|---|---|---|
-| 0.03 | 2.916 |  1.112 |
-| 0.07 | 2.518 |  1.014 |
-| 0.10 | 2.302 |  0.640 |
-| 0.13 | 2.168 |  0.224 |
-| 0.17 | 1.876 | −0.142 |
-| 0.20 | 1.700 | −0.452 |
-| 0.23 | 1.638 | −0.762 |
-| 0.27 | 1.550 | −1.092 |
-| 0.30 | 1.362 | −1.452 |
-| 0.33 | 1.404 | −1.772 |
-| 0.37 | 1.310 | −2.062 |
-
----
-
-### Table 4: Shuttlecock Accelerations at Porosity 0.15
-
-Horizontal acceleration ax / ±0.07 m/s² | Vertical acceleration ay / ±0.07 m/s²
-
-| Time / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0.07 |  9.53 |  9.53 |  8.47 |  9.18 |  9.50 |   | −10.54 | −10.54 |  −8.99 | −10.03 | −10.50 |
-| 0.10 |  6.84 |  7.58 |  5.67 |  6.70 |  6.84 |   | −11.00 | −11.00 | −11.59 | −11.20 | −11.10 |
-| 0.13 |  4.55 |  4.94 |  0.04 |  3.18 |  4.55 |   | −10.02 | −10.02 | −10.02 | −10.02 | −10.02 |
-| 0.17 |  0.90 |  0.77 | −1.01 |  0.22 |  0.90 |   |  −9.25 |  −9.25 |  −8.02 |  −8.84 |  −9.24 |
-| 0.20 |  0.28 | −0.08 | −2.50 | −0.77 |  0.28 |   | −10.02 | −10.02 |  −7.03 |  −9.02 | −10.01 |
-| 0.23 | −0.26 |  0.41 | −0.92 | −0.26 | −0.26 |   |  −9.63 |  −9.63 |  −9.54 |  −9.60 |  −9.62 |
-| 0.27 | −1.17 | −0.82 | −1.84 | −1.28 | −1.17 |   |  −9.33 |  −9.33 | −11.16 |  −9.94 |  −9.74 |
-| 0.30 |  0.94 | −0.33 | −3.16 | −0.85 |  0.94 |   |  −8.69 |  −8.69 | −10.40 |  −9.26 |  −8.71 |
-| 0.33 |  1.88 | −0.82 | −2.40 | −0.45 |  1.88 |   | −11.31 | −11.31 | −10.87 | −11.17 | −11.21 |
-
-**Derived averages:**
-
-| Time / s | ax_avg (m/s²) | ay_avg (m/s²) |
-|---|---|---|
-| 0.07 |  9.242 | −10.120 |
-| 0.10 |  6.726 | −11.178 |
-| 0.13 |  3.452 | −10.020 |
-| 0.17 |  0.556 |  −8.920 |
-| 0.20 | −0.558 |  −9.220 |
-| 0.23 | −0.278 |  −9.604 |
-| 0.27 | −1.256 |  −9.900 |
-| 0.30 | −0.492 |  −9.150 |
-| 0.33 |  0.018 | −11.174 |
-
----
-
 ## POROSITY 0.10
 
 ### Displacement Data (Sx, Sy / ±0.02 m)
@@ -236,6 +101,64 @@ Consistent with Perfly 100 trajectory (range ~0.74 m).
 | 0.30 | −1.42 | −1.43 | −1.39 | −1.41 | −1.42 |   |  −9.91 |  −9.91 |  −9.98 |  −9.93 |  −9.91 |
 
 ---
+## POROSITY 0.15
+
+### Table 2: Shuttlecock Maximum Height and Range at Porosity 0.15
+
+Horizontal displacement Sx / ±0.02 m | Vertical displacement Sy / ±0.02 m
+
+| Time elapsed / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0.00 | −0.02 | −0.04 | −0.05 | −0.04 | −0.03 |   |  0.05 | −0.03 | −0.20 | −0.06 |  0.00 |
+| 0.03 | −0.09 | −0.13 | −0.14 | −0.12 | −0.10 |   |  0.07 | −0.05 |  0.02 |  0.01 |  0.02 |
+| 0.07 | −0.16 | −0.21 | −0.22 | −0.20 | −0.17 |   |  0.09 |  0.04 |  0.04 |  0.06 |  0.04 |
+| 0.10 | −0.22 | −0.25 | −0.27 | −0.25 | −0.22 |   |  0.11 |  0.05 |  0.07 |  0.08 |  0.05 |
+| 0.13 | −0.27 | −0.30 | −0.30 | −0.29 | −0.27 |   |  0.11 |  0.06 |  0.10 |  0.09 |  0.06 |
+| 0.17 | −0.33 | −0.34 | −0.35 | −0.34 | −0.33 |   |  0.09 |  0.04 |  0.12 |  0.09 |  0.04 |
+| 0.20 | −0.39 | −0.39 | −0.40 | −0.39 | −0.39 |   |  0.06 |  0.01 |  0.13 |  0.07 |  0.01 |
+| 0.23 | −0.44 | −0.43 | −0.45 | −0.44 | −0.43 |   |  0.02 | −0.03 |  0.13 |  0.04 | −0.03 |
+| 0.27 | −0.51 | −0.48 | −0.51 | −0.50 | −0.51 |   | −0.03 | −0.10 |  0.12 |  0.00 | −0.10 |
+| 0.30 | −0.56 | −0.55 | −0.61 | −0.57 | −0.56 |   | −0.09 | −0.13 | −0.09 | −0.10 | −0.13 |
+| 0.33 | −0.62 | −0.60 | −0.63 | −0.61 | −0.62 |   | −0.15 | −0.23 | −0.05 | −0.14 | −0.23 |
+| 0.37 | −0.68 | −0.66 | −0.69 | −0.67 | −0.68 |   | −0.22 | −0.28 | −0.10 | −0.20 | −0.28 |
+| 0.40 | −0.55 | −0.71 | −0.75 | −0.67 | −0.70 |   | −0.28 | −0.35 | −0.04 | −0.23 | −0.35 |
+
+
+### Table 3: Shuttlecock Velocities at Porosity 0.15
+
+Horizontal velocity vx / ±0.07 m/s | Vertical velocity vy / ±0.07 m/s
+
+| Time / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0.03 | 2.95 | 2.95 | 2.80 | 2.91 | 2.95 |   | 1.13 | 1.13 | 1.08 | 1.09 | 1.13 |
+| 0.07 | 2.53 | 2.53 | 2.48 | 2.52 | 2.53 |   | 1.03 | 1.03 | 0.98 | 1.00 | 1.03 |
+| 0.10 | 2.33 | 2.30 | 2.26 | 2.29 | 2.33 |   | 0.65 | 0.65 | 0.62 | 0.63 | 0.65 |
+| 0.13 | 2.19 | 2.17 | 2.13 | 2.16 | 2.19 |   | 0.23 | 0.23 | 0.21 | 0.22 | 0.23 |
+| 0.17 | 1.89 | 1.88 | 1.85 | 1.87 | 1.89 |   | −0.14 | −0.14 | −0.15 | −0.14 | −0.14 |
+| 0.20 | 1.71 | 1.70 | 1.68 | 1.70 | 1.71 |   | −0.45 | −0.45 | −0.46 | −0.45 | −0.45 |
+| 0.23 | 1.65 | 1.64 | 1.62 | 1.63 | 1.65 |   | −0.76 | −0.76 | −0.77 | −0.76 | −0.76 |
+| 0.27 | 1.56 | 1.55 | 1.53 | 1.55 | 1.56 |   | −1.09 | −1.09 | −1.10 | −1.09 | −1.09 |
+| 0.30 | 1.37 | 1.36 | 1.35 | 1.36 | 1.37 |   | −1.45 | −1.45 | −1.46 | −1.45 | −1.45 |
+| 0.33 | 1.42 | 1.41 | 1.39 | 1.40 | 1.42 |   | −1.77 | −1.77 | −1.78 | −1.77 | −1.77 |
+| 0.37 | 1.32 | 1.31 | 1.29 | 1.31 | 1.32 |   | −2.06 | −2.06 | −2.07 | −2.06 | −2.06 |
+
+
+### Table 4: Shuttlecock Accelerations at Porosity 0.15
+
+Horizontal acceleration ax / ±0.07 m/s² | Vertical acceleration ay / ±0.07 m/s²
+
+| Time / ±0.01 s | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |   | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0.07 |  9.53 |  9.53 |  8.47 |  9.18 |  9.50 |   | −10.54 | −10.54 |  −8.99 | −10.03 | −10.50 |
+| 0.10 |  6.84 |  7.58 |  5.67 |  6.70 |  6.84 |   | −11.00 | −11.00 | −11.59 | −11.20 | −11.10 |
+| 0.13 |  4.55 |  4.94 |  0.04 |  3.18 |  4.55 |   | −10.02 | −10.02 | −10.02 | −10.02 | −10.02 |
+| 0.17 |  0.90 |  0.77 | −1.01 |  0.22 |  0.90 |   |  −9.25 |  −9.25 |  −8.02 |  −8.84 |  −9.24 |
+| 0.20 |  0.28 | −0.08 | −2.50 | −0.77 |  0.28 |   | −10.02 | −10.02 |  −7.03 |  −9.02 | −10.01 |
+| 0.23 | −0.26 |  0.41 | −0.92 | −0.26 | −0.26 |   |  −9.63 |  −9.63 |  −9.54 |  −9.60 |  −9.62 |
+| 0.27 | −1.17 | −0.82 | −1.84 | −1.28 | −1.17 |   |  −9.33 |  −9.33 | −11.16 |  −9.94 |  −9.74 |
+| 0.30 |  0.94 | −0.33 | −3.16 | −0.85 |  0.94 |   |  −8.69 |  −8.69 | −10.40 |  −9.26 |  −8.71 |
+| 0.33 |  1.88 | −0.82 | −2.40 | −0.45 |  1.88 |   | −11.31 | −11.31 | −10.87 | −11.17 | −11.21 |
+
 
 ## POROSITY 0.18
 
@@ -397,46 +320,3 @@ Consistent with Babolat trajectory (highest vx = 3.17 m/s, range ~0.62 m).
 
 ---
 
-## Graph Consistency Notes (for verification against Image 5)
-
-### Graph A – Average Horizontal Velocity vs Time
-- All six porosity series begin between 2.82–3.17 m/s at t=0.03 s and decrease monotonically.
-- Ordering at t=0.03 s (highest to lowest): 0.31Ø (3.17) > 0.22Ø (3.07) > 0.15Ø & 0.18Ø (≈2.96) ≈ 0.12Ø (2.95) > 0.10Ø (2.82).
-- All linear fits have negative slopes; 0.31Ø has shallowest slope (least drag deceleration per unit time visible in graph).
-- Values at t=0.37 s range from ~1.32 to ~1.42 m/s, consistent with graph.
-
-### Graph B – Average Vertical Velocity vs Time
-- All series start positive (peak vy at t=0.03 s) and decrease linearly to large negative values by t=0.37–0.40 s.
-- Peak vy ordering: 0.15Ø & 0.31Ø (1.34) > 0.22Ø (1.20) > 0.18Ø (1.13) > 0.12Ø (0.92) > 0.10Ø (0.60).
-- All lines approximately parallel (slope ≈ −9.8 to −10.3 m/s²) consistent with near-gravitational vertical acceleration.
-
-### Graph C – Average Horizontal Acceleration vs Time
-- All series start large and negative (~−9 to −14 m/s² at early times) and curve upward toward zero, following a quadratic/exponential recovery shape.
-- Peak (most negative) ax ordering: 0.31Ø has the least negative peak (≈−0.54), 0.10Ø the most negative (≈−1.19).
-- Curves converge toward −1 to −2 m/s² at t=0.33–0.37 s.
-
-### Graph D – Average Vertical Acceleration vs Time
-- All series stay in the band −9.6 to −10.4 m/s², with slight positive drift over time (drag reduces the net downward force as vy grows).
-- Linear fit slopes are small and positive (y = 0.1–1.1x − 10.xxx).
-- 0.31Ø has the most negative intercept (−10.359), 0.10Ø the least negative (−10.030), consistent with graph legend equations.
-
----
-
-## Aerodynamic Roughness Length – Derivation Reference
-
-The aerodynamic roughness length L was computed from peak speed magnitudes and the logarithmic wind profile model. Values used are exactly as given in Image 4:
-
-| Porosity | L (m) |
-|---|---|
-| 0.10 | 2.91 |
-| 0.12 | 3.08 |
-| 0.15 | 3.75 |
-| 0.18 | 3.42 |
-| 0.22 | 3.18 |
-| 0.31 | 2.67 |
-
-Peak L occurs at porosity 0.15 (Perfly shuttlecock). The non-monotonic trend (rises then falls) reflects the interplay between increased porosity (reduced frontal area drag) and feather arrangement geometry affecting boundary-layer separation.
-
----
-
-*End of data repository. All values traceable to Excel source (Book1.xlsx) and experimental images provided.*
