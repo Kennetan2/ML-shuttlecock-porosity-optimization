@@ -1,4 +1,4 @@
-# shuttlecock-porosity-optimization-
+# ML-shuttlecock-porosity-optimization
 Machine learning-assisted optimisation of shuttlecock porosity using Gaussian Process Regression and Bayesian optimisation
 
 # Optimization of Shuttlecock Porosity Through Data-Driven Predictions of Aerodynamic Roughness Length
