@@ -7,7 +7,7 @@ Machine learning-assisted optimisation of shuttlecock porosity using Gaussian Pr
 
 This repository contains the datasets, source code, and supporting figures used in the study:
 
-"Optimising Feather Porosity for Drag Dominated Flight using Gaussian Process Regression and Bayesian Optimisation"
+"Machine Learning-based porosity optimization of shuttlecock design for enhanced flight stability in drag dominated flight"
 
 The objective of this study was to determine the feather porosity that minimizes deviation from an analytically derived ideal shuttlecock trajectory. Experimental kinematic data were extracted through computer vision-assisted motion tracking and subsequently analyzed using Gaussian Process Regression (GPR) and Bayesian Optimization (BO).
 
