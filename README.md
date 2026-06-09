@@ -32,7 +32,7 @@ This repository contains the datasets, source code, and supporting figures used 
 
 "Machine Learning-based porosity optimization of shuttlecock design for enhanced flight stability in drag dominated flight"
 
-Why do some shuttlecocks fly more consistently than others? This project investigates how feather porosity influences shuttlecock flight behavior through experimental motion tracking, aerodynamic modelling, Gaussian Process Regression, and Bayesian Optimization. An optimal porosity of **φ ≈ 0.176** was identified, corresponding to the minimum deviation from an ideal drag-dominated flight trajectory.
+Why do some shuttlecocks fly more consistently than others? This project investigates how feather porosity influences shuttlecock flight behavior through experimental motion tracking, aerodynamic modelling, Gaussian Process Regression, and Bayesian Optimization. An optimal porosity of **φ ≈ 0.154** was identified, corresponding to the minimum deviation from an ideal drag-dominated flight trajectory.
 The objective of this study was to determine the feather porosity that minimizes deviation from an analytically derived ideal shuttlecock trajectory. Experimental kinematic data were extracted through computer vision-assisted motion tracking and subsequently analyzed using Gaussian Process Regression (GPR) and Bayesian Optimization (BO).
 
 ---
@@ -112,10 +112,10 @@ Bayesian Optimization was subsequently used to identify the porosity value minim
 ## Key Results
 
 Optimal Porosity:
-ϕ = 0.175525
+ϕ = 0.154444
 
 Reported Porosity:
-ϕ ≈ 0.176
+ϕ ≈ 0.154
 
 Maximum Aerodynamic Roughness Length:
 L = 3.75 m at ϕ = 0.15
